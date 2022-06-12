@@ -1,0 +1,41 @@
+.card__gray{
+    @include bg-color($bg-color-taupe-gray);
+    @extend %card-gray-align, %card-gray-size;
+    .card--img{
+        @extend %card-gray-img;
+    }
+    .card__title--bold{
+        @extend %card-gray-title;
+    }
+    .card__text--regular{
+        @extend %card-gray-text;
+    }
+}
+
+.card__snow1{
+    @include bg-color($bg-color-snow);
+    @extend %card-gray-align, %card-gray-size;
+    .card--img{
+        @extend %card-gray-img;
+    }
+    .card__title--bold{
+        @extend %card-snow-title;
+    }
+    .card__text--regular{
+        @extend %card-snow-text;
+    }
+}
+
+.card__snow2{
+    @include bg-color($bg-color-snow);
+    @extend %card-gray-align, %card-gray-size;
+    .card--img{
+        @extend %card-snow-img;
+    }
+    .card__title--bold{
+        @extend %card-snow-title;
+    }
+    .card__text--regular{
+        @extend %card-snow-text;
+    }
+}

@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+header {
+  width: 100%;
+  padding: 18px 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero {
+  width: 100%;
+  padding: 250px 0;
+}
+
+.hero, .section-red, .section-red-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__gray, .card__snow1, .card__snow2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+.card__gray, .card__snow1, .card__snow2 {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.card__gray .card--img, .card__snow1 .card--img {
+  width: 969px;
+  height: 394px;
+}
+
+.card__gray .card__title--bold {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.card__gray .card__text--regular {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.card__gray .card--img, .card__snow1 .card--img {
+  width: 969px;
+  height: 432px;
+}
+
+.card__snow2 .card--img {
+  width: 530px;
+  height: 524px;
+}
+
+.card__snow1 .card__title--bold, .card__snow2 .card__title--bold {
+  font-size: 50px;
+  font-weight: 700;
+  color: #686963;
+}
+
+.card__snow1 .card__text--regular, .card__snow2 .card__text--regular {
+  font-size: 18px;
+  font-weight: 400;
+  color: #686963;
+}
+
+.section-red {
+  width: 100%;
+  padding: 75px 0;
+}
+
+.section-red-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.btn-click-aqui {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 278px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #686963;
+  padding: 20px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+  border: 1px solid #686963;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color: #FAFAFA;
+}
+
+header .header__log {
+  margin-left: 140px;
+}
+
+header .header__img {
+  width: 252px;
+  height: 51.5px;
+}
+
+.hero {
+  background-color: #E56353;
+}
+
+.hero .hero__title--light {
+  font-size: 70px;
+  font-weight: 200;
+  color: white;
+}
+
+.hero .hero__title--bold {
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+
+.card__gray {
+  background-color: #91918D;
+}
+
+.card__snow1 {
+  background-color: #FAFAFA;
+}
+
+.card__snow2 {
+  background-color: #FAFAFA;
+}
+
+.section-red {
+  background-color: #E56353;
+}
+
+.section-red .hero__title--bold {
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+
+.section-red-button {
+  background-color: #E56353;
+}
+
+.section-red-button .hero__title--bold {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.btn-click-aqui:hover {
+  background-color: #BABAB8;
+  color: #E56353;
+  border: 1px solid #FAFAFA;
+  cursor: pointer;
+}
+
+.btn-click-aqui:active {
+  background-color: #91918D;
+}
+
+footer {
+  background-color: #686963;
+}
+
+footer .footer__log {
+  margin: 30px 0;
+}
+
+footer .footer__img {
+  width: 172px;
+  height: 86px;
+}
+/*# sourceMappingURL=main.css.map */

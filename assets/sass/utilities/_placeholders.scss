@@ -1,0 +1,111 @@
+// Header //
+%header-size{
+    width: $width-global;
+    padding: 18px 0;
+}
+
+%header-align{
+    display: flex;
+    align-items: center;
+}
+
+// Hero //
+%hero-size{
+    width: $width-global;
+    padding: 250px 0;
+}
+
+%hero-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// Card gray // 
+%card-gray-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+%card-gray-size{
+    width: $width-global;
+    padding: 60px 0;
+}
+
+%card-gray-img{
+    width: $img-rectangle-width;
+    height: $img-rectangle1-height;
+}
+
+%card-gray-title{
+    font-size: $font-size-h3;
+    font-weight: $font-weight-bold;
+    color: $font-color-white;
+}
+
+%card-gray-text{
+    font-size: $font-size-p;
+    font-weight: $font-weight-regular;
+    color: $font-color-white;
+}
+
+// Card snow // 
+%card-gray-img{
+    width: $img-rectangle-width;
+    height: $img-rectangle2-height; 
+}
+
+%card-snow-img{
+    width: $img-square-width;
+    height: $img-square-height; 
+}
+
+%card-snow-title{
+    font-size: $font-size-h3;
+    font-weight: $font-weight-bold;
+    color: $font-color-granite-gray;
+}
+
+%card-snow-text{
+    font-size: $font-size-p;
+    font-weight: $font-weight-regular;
+    color: $font-color-granite-gray;
+}
+
+// Section red // 
+%section-red-size{
+    width: $width-global;
+    padding: 75px 0;
+}
+
+%section-button-red-size{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: $width-global;
+    padding: 50px 0;
+}
+
+// Button // 
+%btn-click-aqui{
+    display: flex;
+    width: $width-button;
+    height: $height-button;
+    font-size: $font-size-btn;
+    font-weight: $font-weight-bold;
+    color: $font-color-granite-gray;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid $bg-color-granite-gray;
+}
+
+// Footer // 
+%footer-align{
+    display: flex;
+    justify-content: center;
+}

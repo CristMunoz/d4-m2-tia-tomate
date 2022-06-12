@@ -1,0 +1,11 @@
+header{
+    @include bg-color($bg-color-snow);
+    @extend %header-size, %header-align;
+    .header__log{
+        margin-left: $header-log-margin-left;
+    }
+    .header__img{
+        width: $header-log-width;
+        height: $header-log-height;       
+    } 
+}

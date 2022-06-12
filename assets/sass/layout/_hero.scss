@@ -1,0 +1,14 @@
+.hero{
+    @include bg-color($bg-color-red);
+    @extend %hero-size, %hero-align;
+    .hero__title--light{
+        font-size: $font-size-h2;
+        font-weight: $font-weight-light;
+        color: $font-color-white;
+    }
+    .hero__title--bold{
+        font-size: $font-size-h2;
+        font-weight: $font-weight-bold;
+        color: $font-color-white;
+    }
+}

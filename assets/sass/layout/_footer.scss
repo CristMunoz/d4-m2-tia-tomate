@@ -1,0 +1,11 @@
+footer{
+    @include bg-color($bg-color-granite-gray);
+    @extend %footer-align;  
+    .footer__log{
+        margin: 30px 0;
+    }
+    .footer__img{
+        width: $footer-log-width;
+        height: $footer-log-height;
+    }
+}

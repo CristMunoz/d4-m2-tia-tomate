@@ -1,0 +1,19 @@
+.section-red{
+    @include bg-color($bg-color-red);
+    @extend %section-red-size, %hero-align;
+    .hero__title--bold{
+        font-size: $font-size-h2;
+        font-weight: $font-weight-bold;
+        color: $font-color-white;
+    }
+}
+
+.section-red-button{
+    @include bg-color($bg-color-red);
+    @extend %section-button-red-size, %hero-align;
+    .hero__title--bold{
+        font-size: $font-size-h3;
+        font-weight: $font-weight-bold;
+        color: $font-color-white;
+    }
+}

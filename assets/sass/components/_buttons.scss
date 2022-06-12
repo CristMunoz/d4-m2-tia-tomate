@@ -1,0 +1,12 @@
+.btn-click-aqui{
+    @extend %btn-click-aqui;
+    &:hover{
+        @include bg-color($bg-color-gray);
+        color: $font-color-red;
+        border: 1px solid $bg-color-snow;
+        cursor: pointer;
+    }
+    &:active{
+        @include bg-color($bg-color-taupe-gray);
+    }
+}
